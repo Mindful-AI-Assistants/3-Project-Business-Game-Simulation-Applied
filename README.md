@@ -9,9 +9,9 @@
 
 ##   <p align="center"> [***Applied Business Game Simulation Project***]() in Humanistic Data Science and Artificial Intelligence
 
-<br>
+<br><br>
 
-####  <p align="center"> Under the Guidance Professor Wagner Tufano -  [YouTube Channel](https://youtube.com/@wagnertufano611?si=bC8wqdmCcheEyqLL)
+####  <p align="center"> Under the guidance of Professor Wagner Tufano -  [YouTube Channel](https://youtube.com/@wagnertufano611?si=bC8wqdmCcheEyqLL)
 
 
 <br><br>
