@@ -7,7 +7,7 @@
 <br><br>
 
 
-##   <p align="center"> [***Applied Business Game Simulation Project***]() in Humanistic Data Science and Artificial Intelligence
+##   <p align="center"> [***Applied Business Game Simulation Project***]() - in Humanistic Data Science and Artificial Intelligence
 
 <br><br>
 
@@ -29,9 +29,6 @@ https://github.com/user-attachments/assets/e2771de0-ca57-4750-b708-74f0dceaade3
 
 
 
-
-
-
 <br><br>
 
 
@@ -42,7 +39,7 @@ https://github.com/user-attachments/assets/e2771de0-ca57-4750-b708-74f0dceaade3
 >
 > * **Main Repo** - [1-Ethical_Entrepreneurship_Innovation_Humanistic-AI-DataScience-PucSP](https://github.com/Mindful-AI-Assistants/1-Ethical_Entrepreneurship_Innovation_Humanistic-AI-DataScience-PucSP)
 >
-> * **Project Startup Repo** - [4- Social Buss: NLP - Class 1]
+> * **Project Startup Repo** - [2-Entrepreneurship-Project-Startup-Mindful-Emotional-AI-Scalable-Ethical-InferenceOps](https://github.com/Mindful-AI-Assistants/2-Entrepreneurship-Project-Startup-Mindful-Emotional-AI-Scalable-Ethical-InferenceOps)
 > 
 >   
 
