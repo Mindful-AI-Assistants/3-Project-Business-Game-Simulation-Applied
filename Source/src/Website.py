@@ -12,6 +12,7 @@ st.markdown("<br><br><br><br>", unsafe_allow_html=True)
 
 left, right = st.columns(2)
 
+
 with left:
     left.markdown('<h1>Windows</h1>', unsafe_allow_html=True)
     
