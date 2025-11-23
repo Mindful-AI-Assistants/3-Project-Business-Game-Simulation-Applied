@@ -29,6 +29,29 @@ https://github.com/user-attachments/assets/e2771de0-ca57-4750-b708-74f0dceaade3
 
 
 
+
+
+
+<br><br>
+
+
+> [!TIP]
+>
+>  This repository is part of the main project Ethical Entrepreneurship amd Innovation in Humanistic AI & DataScience - PUC-SP
+>  To explore all related materials, analyses, and notebooks, visit the main repository 
+>
+> * [1-social-buzz-ai-main](https://github.com/Mindful-AI-Assistants/1-social-buzz-ai-main)
+> *Part of the Humanistic AI Research & Data Modeling Series — where data meets human insight.*
+>
+> * [4- Social Buss: NLP - Class 1](https://github.com/Mindful-AI-Assistants/4-social-buzz-ai--Natural_Language_Processing-NL-Class_1) 
+> 
+> * [Embedding Projector](https://projector.tensorflow.org/)
+> 
+>
+
+
+
+
 <!--Confidentiality Statement-->
 
 <br><br>
