@@ -1,22 +1,25 @@
 
-<br><br>
+<br>
 
  \[[🇧🇷 Português](README.pt_BR.md)\] \[**[🇺🇸 English](README.md)**\]
  
 
-
 <br><br>
 
-##   <p align="center"> [Humanistic]() Data Science and Artificial Intelligence (CDIA): [**Ethical Entrepreneurships**]()
 
-<br>
+##   <p align="center"> 🦄 [***Applied Business Game Simulation Project***]() - in Humanistic AI & Data Science 
 
-###  <p align="center"> [Wagner Tufano’s YouTube channel: Wagner](https://youtube.com/@wagnertufano611?si=bC8wqdmCcheEyqLL)
 
 
 <br><br>
 
 #### <p align="center"> [![Sponsor Mindful AI Assistants](https://img.shields.io/badge/Sponsor-Mindful%20AI%20%20Assistants-brightgreen?logo=GitHub)](https://github.com/sponsors/Mindful-AI-Assistants)
+
+
+
+<br><br>
+
+####  <p align="center"> Under the guidance of Professor Wagner Tufano -  [YouTube Channel](https://youtube.com/@wagnertufano611?si=bC8wqdmCcheEyqLL)
 
 
 
@@ -28,6 +31,25 @@ https://github.com/user-attachments/assets/e2771de0-ca57-4750-b708-74f0dceaade3
 ###### 🎶  ***[Vivaldi - The Four Seasons 'Winter']()  ⚡️ Art by Fabi***  
 
 
+
+<br><br><br>
+
+
+> [!TIP]
+>
+> * ***This repository is part of the main project Ethical Entrepreneurship amd Innovation in Humanistic AI & Data Science - PUC-SP.*** <br>
+> * To explore all related materials, analyses, and notebooks, visit the repositories:  <br>
+>
+> * **Main Repo** - [1-Ethical_Entrepreneurship_Innovation_Humanistic-AI-DataScience-PucSP](https://github.com/Mindful-AI-Assistants/1-Ethical_Entrepreneurship_Innovation_Humanistic-AI-DataScience-PucSP)  <br>
+>
+> * **Project Startup Repo** - [2-Entrepreneurship-Project-Startup-Mindful-Emotional-AI-Scalable-Ethical-InferenceOps](https://github.com/Mindful-AI-Assistants/2-Entrepreneurship-Project-Startup-Mindful-Emotional-AI-Scalable-Ethical-InferenceOps)  <br>
+> 
+>   
+
+
+<br><br>
+
+#
 
 <!--Confidentiality Statement-->
 
