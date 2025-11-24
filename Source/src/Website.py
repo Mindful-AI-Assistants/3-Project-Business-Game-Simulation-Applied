@@ -14,15 +14,7 @@ st.markdown(
 
 st.markdown("<br><br><br><br>", unsafe_allow_html=True)
 
-'''def create_zip():
-    # Cria um arquivo zip a partir do arquivo rar
-    with zipfile.ZipFile(r'Game\Business_Game.zip', 'w', zipfile.ZIP_DEFLATED) as zipf:
-        for root, dirs, files in os.walk(source_folder):
-            for file in files:
-                file_path = os.path.join(root, file)
-                arcname = os.path.relpath(file_path, source_folder)
-                zipf.write(file_path, arcname)
-'''
+
 
 #left, right = st.columns(2)
 
@@ -45,7 +37,7 @@ def create_zip(source_folder):
 diretorio_script = os.path.dirname(os.path.abspath(__file__))
 
 # 2. Cria o caminho completo para o arquivo .rar (une a pasta + o nome do arquivo)
-caminho_arquivo = os.path.join(diretorio_script, "Business_Game.rar")
+caminho_arquivo = os.path.join(diretorio_script, "Game")
 
 #with left:
 st.markdown('<h1>Windows</h1>', unsafe_allow_html=True)
@@ -53,7 +45,7 @@ st.markdown('<h1>Windows</h1>', unsafe_allow_html=True)
 # Botão que gera o zip dinamicamente
 if st.button("Gerar e Baixar ZIP"):
     with st.spinner("Gerando arquivo ZIP..."):
-        zip_data = create_zip('Game')
+        zip_data = create_zip(caminho_arquivo)
         st.download_button(
             label="📥 Baixar Business Game.zip",
             data=zip_data,
