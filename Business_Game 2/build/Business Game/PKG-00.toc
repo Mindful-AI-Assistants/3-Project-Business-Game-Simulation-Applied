@@ -1,0 +1,80 @@
+('C:\\Users\\PP\\OneDrive - Fundação São Paulo\\PUC-SP\\4 '
+ 'Semestre\\Empreendedorismo em CDIA\\Trabalho 2\\build\\Business '
+ 'Game\\Business Game.pkg',
+ {'BINARY': True,
+  'DATA': True,
+  'EXECUTABLE': True,
+  'EXTENSION': True,
+  'PYMODULE': True,
+  'PYSOURCE': True,
+  'PYZ': False,
+  'SPLASH': True,
+  'SYMLINK': False},
+ [('pyi-contents-directory _internal', '', 'OPTION'),
+  ('PYZ-00.pyz',
+   'C:\\Users\\PP\\OneDrive - Fundação São Paulo\\PUC-SP\\4 '
+   'Semestre\\Empreendedorismo em CDIA\\Trabalho 2\\build\\Business '
+   'Game\\PYZ-00.pyz',
+   'PYZ'),
+  ('struct',
+   'C:\\Users\\PP\\OneDrive - Fundação São Paulo\\PUC-SP\\4 '
+   'Semestre\\Empreendedorismo em CDIA\\Trabalho 2\\build\\Business '
+   'Game\\localpycs\\struct.pyc',
+   'PYMODULE'),
+  ('pyimod01_archive',
+   'C:\\Users\\PP\\OneDrive - Fundação São Paulo\\PUC-SP\\4 '
+   'Semestre\\Empreendedorismo em CDIA\\Trabalho 2\\build\\Business '
+   'Game\\localpycs\\pyimod01_archive.pyc',
+   'PYMODULE'),
+  ('pyimod02_importers',
+   'C:\\Users\\PP\\OneDrive - Fundação São Paulo\\PUC-SP\\4 '
+   'Semestre\\Empreendedorismo em CDIA\\Trabalho 2\\build\\Business '
+   'Game\\localpycs\\pyimod02_importers.pyc',
+   'PYMODULE'),
+  ('pyimod03_ctypes',
+   'C:\\Users\\PP\\OneDrive - Fundação São Paulo\\PUC-SP\\4 '
+   'Semestre\\Empreendedorismo em CDIA\\Trabalho 2\\build\\Business '
+   'Game\\localpycs\\pyimod03_ctypes.pyc',
+   'PYMODULE'),
+  ('pyimod04_pywin32',
+   'C:\\Users\\PP\\OneDrive - Fundação São Paulo\\PUC-SP\\4 '
+   'Semestre\\Empreendedorismo em CDIA\\Trabalho 2\\build\\Business '
+   'Game\\localpycs\\pyimod04_pywin32.pyc',
+   'PYMODULE'),
+  ('pyiboot01_bootstrap',
+   'C:\\Users\\PP\\OneDrive - Fundação São Paulo\\PUC-SP\\4 '
+   'Semestre\\Empreendedorismo em CDIA\\Trabalho '
+   '2\\.venv\\Lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
+   'PYSOURCE'),
+  ('pyi_rth_inspect',
+   'C:\\Users\\PP\\OneDrive - Fundação São Paulo\\PUC-SP\\4 '
+   'Semestre\\Empreendedorismo em CDIA\\Trabalho '
+   '2\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
+   'PYSOURCE'),
+  ('pyi_rth_localhost_fletd',
+   'C:\\Users\\PP\\OneDrive - Fundação São Paulo\\PUC-SP\\4 '
+   'Semestre\\Empreendedorismo em CDIA\\Trabalho '
+   '2\\.venv\\Lib\\site-packages\\flet_cli\\__pyinstaller\\rthooks\\pyi_rth_localhost_fletd.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgutil',
+   'C:\\Users\\PP\\OneDrive - Fundação São Paulo\\PUC-SP\\4 '
+   'Semestre\\Empreendedorismo em CDIA\\Trabalho '
+   '2\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgutil.py',
+   'PYSOURCE'),
+  ('pyi_rth_multiprocessing',
+   'C:\\Users\\PP\\OneDrive - Fundação São Paulo\\PUC-SP\\4 '
+   'Semestre\\Empreendedorismo em CDIA\\Trabalho '
+   '2\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py',
+   'PYSOURCE'),
+  ('main',
+   'C:\\Users\\PP\\OneDrive - Fundação São Paulo\\PUC-SP\\4 '
+   'Semestre\\Empreendedorismo em CDIA\\Trabalho 2\\src\\main.py',
+   'PYSOURCE')],
+ 'python313.dll',
+ True,
+ False,
+ False,
+ [],
+ None,
+ None,
+ None)
