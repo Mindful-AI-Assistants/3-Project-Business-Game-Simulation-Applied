@@ -120,9 +120,13 @@ After entering their data into the system, each group will automatically see:
 | 🥉 3rd   | Nova Labs   | 40,000.00 | 15,000.00   | 8,000.00   | 3,000.00        | 8,000.00  | 4,000.00            | 4,000.00 | 1,500.00 | 2,000.00 | 800.00    | 1,500.00    | 1,000.00      | 40.00         | 1,000      | 40,000.00     | 88,800.00   | 40,000.00    |
 
 
-<br>
+<br><br>
 
+
+> [!IMPORTANT]
+>
 > **Note:** In case of a tie in profit, the order follows the original position in the list.
+> 
 
 
 <br><br>
