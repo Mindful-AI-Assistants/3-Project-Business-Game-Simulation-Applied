@@ -1,8 +1,11 @@
 import flet as ft
+import numpy as np
 from Enterprise import Enterprise
 
 def View_Enterprises_Page(page: ft.Page, Enterprises: list[Enterprise]) -> ft.ListView:
     Enterprises.sort(key=lambda x: x.profit, reverse = True)
+    Ranking_Enterprises = sorted(np.unique([enterprise.profit for enterprise in Enterprises]), reverse=True)
+    
     ft.DataColumnSortEvent
     return ft.Container(
         ft.DataTable(
@@ -16,13 +19,13 @@ def View_Enterprises_Page(page: ft.Page, Enterprises: list[Enterprise]) -> ft.Li
             rows=[
                 ft.DataRow(
                     cells=[
-                        ft.DataCell(ft.Text(f"{pos + 1}º 🥇" if pos == 0 else (f"{pos + 1}º 🥈" if pos == 1 else (f"{pos + 1}º 🥉" if pos == 2 else f"{pos + 1}º")))),
+                        ft.DataCell(ft.Text(f"{Ranking_Enterprises.index(ent.profit) + 1}º 🥇" if Ranking_Enterprises.index(ent.profit) == 0 else (f"{Ranking_Enterprises.index(ent.profit) + 1}º 🥈" if Ranking_Enterprises.index(ent.profit) == 1 else (f"{Ranking_Enterprises.index(ent.profit) + 1}º 🥉" if Ranking_Enterprises.index(ent.profit) == 2 else f"{Ranking_Enterprises.index(ent.profit) + 1}º")))),
                         ft.DataCell(ft.Text(f"{ent.Name}")),
                         ft.DataCell(ft.Text(f"R$ {ent.total_costs:,.2f}")),
                         ft.DataCell(ft.Text(f"R$ {ent.total_revenue:,.2f}")),
                         ft.DataCell(ft.Text(f"R$ {ent.profit:,.2f}"))
                     ]
-                ) for pos, ent in enumerate(Enterprises)
+                ) for ent in Enterprises
             ]
         ),
         expand=True

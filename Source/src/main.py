@@ -13,19 +13,21 @@ def main(page: ft.Page):
 
 
     Home_page = True
-    def Disabled_Button(e):
+    def Disabled_Button(e: ft.ControlEvent):
         nonlocal Add_Enterprise_Button, Name
-        
-        if Name.value.strip() != "":
+    
+        if all([Name.value.strip() != "", sales_amount.value != "0", value_of_each_product.value.strip() != "0.0"]):
             Add_Enterprise_Button.disabled = False
+            Add_Enterprise_Button.bgcolor = "#B1B27A"
         
         else:
             Add_Enterprise_Button.disabled = True
+            Add_Enterprise_Button.bgcolor = "#9E9E9E"
         
         Add_Enterprise_Button.update()
     
     
-    def Add_Enterprise(e) -> None:
+    def Add_Enterprise(e: ft.ControlEvent) -> None:
         nonlocal Enterprises, Remove_Enterprise_Button
         Enterprises.append(
             Enterprise(
@@ -64,13 +66,17 @@ def main(page: ft.Page):
         sales_amount.value = '0'
 
         Remove_Enterprise_Button.disabled = False
+        
         Add_Enterprise_Button.disabled = True
+        Add_Enterprise_Button.bgcolor = "#B1B27A"
+        
         Calculate_Button.disabled = False
+        Calculate_Button.bgcolor = "#74B835"
         
         page.update()
 
 
-    def remove_all_enterprises(e) -> None:
+    def remove_all_enterprises(e: ft.ControlEvent) -> None:
         nonlocal Enterprises
         Enterprises.clear()
         
@@ -91,12 +97,16 @@ def main(page: ft.Page):
         sales_amount.value = '0'
         
         Remove_Enterprise_Button.disabled = True
+        
         Add_Enterprise_Button.disabled = True
+        Add_Enterprise_Button.bgcolor = "#9E9E9E"
+        
         Calculate_Button.disabled = True
+        Calculate_Button.bgcolor = "#9E9E9E"
         page.update()
 
 
-    def Fix_value(e, variable: ft.TextField) -> None:
+    def Fix_value(e: ft.ControlEvent, variable: ft.TextField) -> None:
         nonlocal cost_employees
 
         variable.error = False
@@ -124,32 +134,48 @@ def main(page: ft.Page):
             variable.error_text = "Formato correto: 1234.56, 1,234.56, 1.234,56, 1234.56, ou 1234"
         
         variable.update()
+        Disabled_Button(e)
 
 
-    def Sales_amount(e) -> None:
+    def Sales_amount(e: ft.ControlEvent) -> None:
         nonlocal sales_amount
+        
+        e.control.error = False
+        e.control.error_text = ""
+        
         try:
             sales_amount.value = int(sales_amount.value.strip())
+            sales_amount.value = str(sales_amount.value)
+            
+            Disabled_Button(e)
         
         except ValueError:
             sales_amount.value = '0'
+            
+            e.control.error = True
+            e.control.error_text = "Digite um número inteiro válido"
         
         sales_amount.update()
     
     
-    def Go_to_Results_Page(e) -> None:
+    def TextField_on_focus(e: ft.ControlEvent) -> None:
+        e.control.value = ''
+        e.control.update()
+        
+    
+    def Go_to_Results_Page(e: ft.ControlEvent) -> None:
         nonlocal Home_page
         Home_page = False
         update_layout(e)
         
     
-    def Go_to_Home_Page(e) -> None:
+    def Go_to_Home_Page(e: ft.ControlEvent) -> None:
         nonlocal Home_page
         Home_page = True
         update_layout(e)
     
     
-    def update_layout(e = None) -> None:
+    def update_layout(e: ft.ControlEvent = None) -> None:
         nonlocal Enterprises, Home_page
 
         page.clean()
@@ -180,7 +206,6 @@ def main(page: ft.Page):
             )
 
         page.update()
-    
 
     body_page = ft.Column(
         controls = [
@@ -263,7 +288,8 @@ def main(page: ft.Page):
                                         regex_string = r"^[0-9,.]*$",
                                         replacement_string = ""
                                     ),
-                                    on_blur = lambda e: Fix_value(e, e.control)
+                                    on_blur = lambda e: Fix_value(e, e.control),
+                                    on_focus = TextField_on_focus
                                 ),
                                 
                                 Business_rental_cost := ft.TextField(
@@ -283,7 +309,8 @@ def main(page: ft.Page):
                                         regex_string = r"^[0-9,.]*$",
                                         replacement_string = ""
                                     ),
-                                    on_blur = lambda e: Fix_value(e, e.control)
+                                    on_blur = lambda e: Fix_value(e, e.control),
+                                    on_focus = TextField_on_focus
                                 )
                             ],
                             alignment = ft.MainAxisAlignment.CENTER,
@@ -310,7 +337,8 @@ def main(page: ft.Page):
                                         regex_string = r"^[0-9,.]*$",
                                         replacement_string = ""
                                     ),
-                                    on_blur = lambda e: Fix_value(e, e.control)
+                                    on_blur = lambda e: Fix_value(e, e.control),
+                                    on_focus = TextField_on_focus
                                 ),
 
                                 product_production_cost := ft.TextField(
@@ -330,7 +358,8 @@ def main(page: ft.Page):
                                         regex_string = r"^[0-9,.]*$",
                                         replacement_string = ""
                                     ),
-                                    on_blur = lambda e: Fix_value(e, e.control)
+                                    on_blur = lambda e: Fix_value(e, e.control),
+                                    on_focus = TextField_on_focus
                                 )
                             ],
                             alignment = ft.MainAxisAlignment.CENTER,
@@ -356,7 +385,8 @@ def main(page: ft.Page):
                                         regex_string = r"^[0-9,.]*$",
                                         replacement_string = ""
                                     ),
-                                    on_blur = lambda e: Fix_value(e, e.control)
+                                    on_blur = lambda e: Fix_value(e, e.control),
+                                    on_focus = TextField_on_focus
                                 ),
 
                                 creation_production_cost := ft.TextField(
@@ -376,7 +406,8 @@ def main(page: ft.Page):
                                         regex_string = r"^[0-9,.]*$",
                                         replacement_string = ""
                                     ),
-                                    on_blur = lambda e: Fix_value(e, e.control)
+                                    on_blur = lambda e: Fix_value(e, e.control),
+                                    on_focus = TextField_on_focus
                                 )
                             ],
                             alignment = ft.MainAxisAlignment.CENTER,
@@ -402,7 +433,8 @@ def main(page: ft.Page):
                                         regex_string = r"^[0-9,.]*$",
                                         replacement_string = ""
                                     ),
-                                    on_blur = lambda e: Fix_value(e, e.control)
+                                    on_blur = lambda e: Fix_value(e, e.control),
+                                    on_focus = TextField_on_focus
                                 ),
 
                                 tax_cost := ft.TextField(
@@ -422,7 +454,8 @@ def main(page: ft.Page):
                                         regex_string = r"^[0-9,.]*$",
                                         replacement_string = ""
                                     ),
-                                    on_blur = lambda e: Fix_value(e, e.control)
+                                    on_blur = lambda e: Fix_value(e, e.control),
+                                    on_focus = TextField_on_focus
                                 )
                             ],
                             alignment = ft.MainAxisAlignment.CENTER,
@@ -449,7 +482,8 @@ def main(page: ft.Page):
                                         regex_string = r"^[0-9,.]*$",
                                         replacement_string = ""
                                     ),
-                                    on_blur = lambda e: Fix_value(e, e.control)
+                                    on_blur = lambda e: Fix_value(e, e.control),
+                                    on_focus = TextField_on_focus
                                 ),
 
                                 bonus_cost := ft.TextField(
@@ -469,7 +503,8 @@ def main(page: ft.Page):
                                         regex_string = r"^[0-9,.]*$",
                                         replacement_string = ""
                                     ),
-                                    on_blur = lambda e: Fix_value(e, e.control)
+                                    on_blur = lambda e: Fix_value(e, e.control),
+                                    on_focus = TextField_on_focus
                                 )
                             ],
                             alignment = ft.MainAxisAlignment.CENTER,
@@ -496,7 +531,8 @@ def main(page: ft.Page):
                                         regex_string = r"^[0-9,.]*$",
                                         replacement_string = ""
                                     ),
-                                    on_blur = lambda e: Fix_value(e, e.control)
+                                    on_blur = lambda e: Fix_value(e, e.control),
+                                    on_focus = TextField_on_focus
                                 ),
 
                                 maintenance_cost := ft.TextField(
@@ -516,7 +552,8 @@ def main(page: ft.Page):
                                         regex_string = r"^[0-9,.]*$",
                                         replacement_string = ""
                                     ),
-                                    on_blur = lambda e: Fix_value(e, e.control)
+                                    on_blur = lambda e: Fix_value(e, e.control),
+                                    on_focus = TextField_on_focus
                                 )
                             ],
                             alignment = ft.MainAxisAlignment.CENTER,
@@ -554,7 +591,8 @@ def main(page: ft.Page):
                                         regex_string = r"^[0-9,.]*$",
                                         replacement_string = ""
                                     ),
-                                    on_blur = lambda e: Fix_value(e, e.control)
+                                    on_blur = lambda e: Fix_value(e, e.control),
+                                    on_focus = TextField_on_focus
                                 ),
 
                                 sales_amount := ft.TextField(
@@ -572,7 +610,8 @@ def main(page: ft.Page):
                                         regex_string = r"^[0-9]*$",
                                         replacement_string = ""
                                     ),
-                                    on_blur = Sales_amount
+                                    on_blur = Sales_amount,
+                                    on_focus = TextField_on_focus
                                 )
                             ],
                             alignment = ft.MainAxisAlignment.CENTER,
@@ -613,7 +652,7 @@ def main(page: ft.Page):
                                         Add_Enterprise_Button := ft.ElevatedButton(
                                             text="Adicionar Empresa",
                                             tooltip="Adicione a empresa com os dados preenchidos acima",
-                                            bgcolor="#B1B27A",
+                                            bgcolor="#9E9E9E",
                                             color=ft.Colors.WHITE,
                                             width=200,
                                             height=50,
@@ -630,9 +669,9 @@ def main(page: ft.Page):
                                 ),
                                 
                                 Calculate_Button := ft.ElevatedButton(
-                                    text="Ver os Lucros",
+                                    text="Calcular Lucros",
                                     tooltip="Clique no botão para calcular o lucro das empresas cadastradas e verificar quem ganhou",
-                                    bgcolor="#74B835",
+                                    bgcolor="#9E9E9E",
                                     color=ft.Colors.WHITE,
                                     width=200,
                                     height=50,
