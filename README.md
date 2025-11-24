@@ -299,17 +299,22 @@ For more details on building Windows package, refer to the [Windows Packaging Gu
 ## 💌 [Let the data flow... Ping Us]()
 
 
-- 👩🏻‍🚀 [**Fabiana Campanari**]()
+- 👨🏽‍🚀 [**Andson Ribeiro**](https://github.com/andsonandreribeiro09)
 
-- 👨🏽‍🚀 [**Andson Barengo**]()
+- 👩🏻‍🚀 [**Fabiana ⚡️ Campanari**](https://github.com/FabianaCampanari) 
+
+- 👨🏽‍🚀  [**José Augusto de Souza Oliveira**](https://github.com/Jojose3)
+
+- 🧑🏼‍🚀 [**Luan Fabiano**](https://github.com/LuanFabiano28)
+
+- 👨🏽‍🚀 [**Pedro Barrenco**](https://github.com/Pgbarenco)
   
-- 🧑🏼‍🚀 =[**PedroVyctor**]()
+- 🧑🏼‍🚀 [**Pedro Vyctor**](https://github.com/Pgbarenco)
 
 
 
 
-
-<br> 
+<br><br>  
 
 
 #### <p align="center">  🛸๋ My Contacts [Hub](https://linktr.ee/fabianacampanari)
