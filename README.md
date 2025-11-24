@@ -56,7 +56,7 @@ https://github.com/user-attachments/assets/e2771de0-ca57-4750-b708-74f0dceaade3
 <br><br>
 
 
-> [!IMPORTANT]
+> [!NOTE]
 >
 > ⚠️ Heads Up 
 >
