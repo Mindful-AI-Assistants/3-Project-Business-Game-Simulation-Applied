@@ -224,16 +224,23 @@ self.profit = self.total_revenue - self.total_costs
 
 ### [uv]()
 
-Run as a desktop app:
+<br>
+
+[Run as a desktop app:]()
+
+<br>
 
 
 ```
 uv run flet run
 ```
+
 <br>
 
 
 [Run as a web app:]()
+
+<br>
 
 ```
 uv run flet run --web
@@ -244,7 +251,11 @@ uv run flet run --web
 
 ### [Poetry]()
 
-Install dependencies from `pyproject.toml`:
+<br>
+
+[Install dependencies from]() `pyproject.toml`:
+
+<br>
 
 ```
 poetry install
@@ -252,7 +263,10 @@ poetry install
 
 <br>
 
-Run as a desktop app:
+[Run as a desktop app:]()
+
+<br>
+
 
 ```
 poetry run flet run
@@ -260,7 +274,10 @@ poetry run flet run
 
 <br>
 
-Run as a web app:
+[Run as a web app:]()
+
+<br>
+
 
 ```
 poetry run flet run --web
@@ -283,6 +300,8 @@ poetry run flet run --web
 
 ### [Android]()
 
+<br>
+
 ```
 flet build apk -v
 ```
@@ -292,9 +311,12 @@ flet build apk -v
 
 > For more details on building and signing `.apk` or `.aab`, refer to the [Android Packaging Guide](https://flet.dev/docs/publish/android/).
 
-<br>
+<br><br>
+
 
 ### [iOS()
+
+<br>
 
 ```
 flet build ipa -v
@@ -305,9 +327,11 @@ flet build ipa -v
 > For more details on building and signing `.ipa`, refer to the [iOS Packaging Guide](https://flet.dev/docs/publish/ios/).
 
 
-<br>
+<br><br>
 
 ### [macOS]()
+
+<br>
 
 ```
 flet build macos -v
@@ -318,9 +342,11 @@ flet build macos -v
 > For more details on building macOS package, refer to the [macOS Packaging Guide](https://flet.dev/docs/publish/macos/).
 
 
-<br>
+<br><br>
 
 ### [Linux]()
+
+<br>
 
 ```
 flet build linux -v
@@ -330,7 +356,8 @@ flet build linux -v
 
 > For more details on building Linux package, refer to the [Linux Packaging Guide](https://flet.dev/docs/publish/linux/).
 
-<br>
+<br><br>
+
 
 ### [Windows]()
 
@@ -341,7 +368,6 @@ flet build windows -v
 <br>
 
 > For more details on building Windows package, refer to the [Windows Packaging Guide](https://flet.dev/docs/publish/windows/).
-
 
 
 <br><br>
