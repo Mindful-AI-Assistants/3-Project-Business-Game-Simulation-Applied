@@ -288,7 +288,7 @@ poetry run flet run --web
 
 > [!TIP]
 >
-> *For more details on running the app, refer to the [Getting Started Guide](https://flet.dev/docs/getting-started/).
+> * For more details on running the app, refer to the [Getting Started Guide](https://flet.dev/docs/getting-started/).
 >
 
 <br><br>
