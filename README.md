@@ -86,13 +86,14 @@ https://github.com/user-attachments/assets/e2771de0-ca57-4750-b708-74f0dceaade3
 
 ### <p align="center"><em> Our Game is Now Available on Streamlit ! [Download to play]() and Follow for Updates. [Let's Play]() ! </em></p>
 
-<br>
+<br><br>
+
 
 ### <p align="center"> 🦄 [⇩]() 
 
 
+<br><br>
 
-<br>
 
 <p align="center">
   <a href="https://mindfulaiassistants.streamlit.app/#windows">
