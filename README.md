@@ -84,7 +84,7 @@ https://github.com/user-attachments/assets/e2771de0-ca57-4750-b708-74f0dceaade3
 
 
 
-#### <p align="center"><em> Game! Download, play, and follow updates. Let's do it! </em></p>
+#### <p align="center"><em> [Game Download]() Available on Streamlit , Play, and Follow Updates. [Let's do it]() ! </em></p>
 
 <br>
 
@@ -95,7 +95,7 @@ https://github.com/user-attachments/assets/e2771de0-ca57-4750-b708-74f0dceaade3
 <br>
 
 <p align="center">
-  <a href="">
+  <a href="https://mindfulaiassistants.streamlit.app/#windows">
     <img 
       src="https://img.shields.io/badge/Smart_City_Laguna_Simulator-Streamlit-brightgreen?logo=streamlit&logoColor=white&style=flat-square" 
       alt="Smart City Laguna Simulator"
