@@ -41,7 +41,7 @@ caminho_arquivo = os.path.join(diretorio_script, "Game")
 
 
 container = st.container(horizontal_alignment="center")
-    
+
 with container:
     st.markdown("<h2 style='text-align:center'>Windows</h2>", unsafe_allow_html=True)
 
