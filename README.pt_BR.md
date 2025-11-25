@@ -71,11 +71,44 @@ https://github.com/user-attachments/assets/e2771de0-ca57-4750-b708-74f0dceaade3
 
 <!--End-->
 
+
+<br><br><br>
+
+#  
+
+<br><br><br>
+
+
+
+### <p align="center"><em> Our Game is Now Available on Streamlit ! [Download to play]() and Follow for Updates. [Let's Play]() ! </em></p>
+
 <br><br>
 
-#
+
+### <p align="center"> 🦄 [⇩]() 
+
 
 <br><br>
+
+
+<p align="center">
+  <a href="https://mindfulaiassistants.streamlit.app/#windows">
+    <img 
+      src="https://img.shields.io/badge/Download our Game. Let's Play!-Streamlit-brightgreen?logo=streamlit&logoColor=white&style=flat-square" 
+      alt="Download our Game. Let's Play!]"
+      style="height: 30px; width: auto;"
+  </a>
+</p>
+
+
+
+<br><br><br>
+
+#  
+
+<br><br><br>
+
+
 
 # [Business Game Simulation — 3º Projeto da Disciplina]()
 
