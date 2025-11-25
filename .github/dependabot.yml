@@ -1,5 +1,4 @@
 version: 2  
-
 updates:  
 
   # Configuração para dependências de Python (requirements.txt)  
