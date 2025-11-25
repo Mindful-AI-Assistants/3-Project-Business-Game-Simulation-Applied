@@ -1,0 +1,15 @@
+Exemplo cálculo do jogo de empresas com a variável Preço;;;;;;;
+;Decisões;;Cálculos;;;;
+Empresa;Preço;Quant. a ser produzida;Dif. Média-Preço;Dif. % Preço-média;Faturamento da empresa;Quantidade vendida;Dif. Qtde. Vend-Prev.
+1; R$ 	10,00 ; 	5.000 ; R$ 	0,40 ;4%; R$ 	51.923,08 ; 	5.192 ; 	192 
+2; R$ 	7,00 ; 	9.000 ; R$ 	3,40 ;33%; R$ 	66.346,15 ; 	9.478 ; 	478 
+3; R$ 	8,00 ; 	7.000 ; R$ 	2,40 ;23%; R$ 	61.538,46 ; 	7.692 ; 	692 
+4; R$ 	12,00 ; 	4.000 ;-R$ 	1,60 ;-15%; R$ 	42.307,69 ; 	3.526 ;-	474 
+5; R$ 	15,00 ; 	2.000 ;-R$ 	4,60 ;-44%; R$ 	27.884,62 ; 	1.859 ;-	141 
+Média/Total; R$ 	10,40 ;;;0%; R$ 	250.000,00 ;;
+;;;;;;;
+;Sazonalidade Total;;;;Decisões das equipes;;
+; 	250.000,00 ;;;;;;
+;;;;;;;
+;Sazonalidade Média;;;;;;
+; 	50.000,00 ;;;;;;

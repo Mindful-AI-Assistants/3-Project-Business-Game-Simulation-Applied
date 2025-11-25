@@ -1,0 +1,15 @@
+Exemplo cálculo do jogo de empresas com a variáveis Preço e Propaganda;;;;;;;;;;
+;Decisões;;;Cálculos;;;;;;
+Empresa;Preço;Quant. a ser produzida;Propaganda;Dif. Média-Preço;Dif. % Média-Preço;Dif. Propa-Média;Dif. % Prop-média;Faturamento da empresa;Quantidade vendida;Dif. Qtde. Vend-Prev.
+1; R$ 	10,00 ; 	5.000 ; 	9.000 ; R$ 	0,40 ;4%;-	3.800 ;-30%; 	37.079,33 ; 	3.708 ;-	1.292 
+2; R$ 	7,00 ; 	9.000 ; 	12.000 ; R$ 	3,40 ;33%;-	800 ;-6%; 	63.221,15 ; 	9.032 ; 	32 
+3; R$ 	8,00 ; 	7.000 ; 	15.000 ; R$ 	2,40 ;23%; 	2.200 ;17%; 	70.132,21 ; 	8.767 ; 	1.767 
+4; R$ 	12,00 ; 	4.000 ; 	18.000 ;-R$ 	1,60 ;-15%; 	5.200 ;41%; 	62.620,19 ; 	5.218 ; 	1.218 
+5; R$ 	15,00 ; 	2.000 ; 	10.000 ;-R$ 	4,60 ;-44%;-	2.800 ;-22%; 	16.947,12 ; 	1.130 ;-	870 
+Média/Total; R$ 	10,40 ;; 	12.800 ;;0%;;0%; 	250.000,00 ;;
+;;;;;;;;;;
+;Sazonalidade Total;;;;Decisões das equipes;;;;;
+; 	250.000,00 ;;;;;;;;;
+;;;;;;;;;;
+;Sazonalidade Média;;;;;;;;;
+; 	50.000,00 ;;;;;;;;;
