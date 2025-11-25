@@ -84,7 +84,7 @@ https://github.com/user-attachments/assets/e2771de0-ca57-4750-b708-74f0dceaade3
 
 
 
-#### <p align="center"><em> Explore the [Simulator]() and support the Smart Cities AI project </em></p>
+#### <p align="center"><em> Game! Download, play, and follow updates. Let's do it! </em></p>
 
 <br>
 
@@ -95,7 +95,7 @@ https://github.com/user-attachments/assets/e2771de0-ca57-4750-b708-74f0dceaade3
 <br>
 
 <p align="center">
-  <a href="https://projetosmartcitylagunacdia03-yh6luzcrafamiabtp5xn8m.streamlit.app/">
+  <a href="">
     <img 
       src="https://img.shields.io/badge/Smart_City_Laguna_Simulator-Streamlit-brightgreen?logo=streamlit&logoColor=white&style=flat-square" 
       alt="Smart City Laguna Simulator"
@@ -105,11 +105,11 @@ https://github.com/user-attachments/assets/e2771de0-ca57-4750-b708-74f0dceaade3
 
 
 
-<br><br><br>
+<br><br><br><br>
 
 
 
-#  [Business Game Simulation()
+#  [Business Game Simulation]()
 
 <br>
 
