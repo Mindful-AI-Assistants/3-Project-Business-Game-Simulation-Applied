@@ -39,18 +39,19 @@ diretorio_script = os.path.dirname(os.path.abspath(__file__))
 # 2. Cria o caminho completo para o arquivo .rar (une a pasta + o nome do arquivo)
 caminho_arquivo = os.path.join(diretorio_script, "Game")
 
-#with left:
-st.markdown('<h1>Windows</h1>', unsafe_allow_html=True)
 
-# Botão que gera o zip dinamicamente
-if st.button("Gerar e Baixar ZIP"):
-    with st.spinner("Gerando arquivo ZIP..."):
-        zip_data = create_zip(caminho_arquivo)
-        st.download_button(
-            label="📥 Baixar Business Game.zip",
-            data=zip_data,
-            file_name="BusinessGame.zip",
-            mime="application/zip"
-        )
+container = st.container(horizontal_alignment="center")
+    
+with container:
+    st.markdown("<h2 style='text-align:center'>Windows</h2>", unsafe_allow_html=True)
 
-        
+    # Botão que gera o zip dinamicamente
+    if st.button("Gerar e Baixar ZIP"):
+        with st.spinner("Gerando arquivo ZIP..."):
+            zip_data = create_zip(caminho_arquivo)
+            st.download_button(
+                label="📥 Baixar Business Game.zip",
+                data=zip_data,
+                file_name="BusinessGame.zip",
+                mime="application/zip"
+            )
