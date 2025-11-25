@@ -98,7 +98,7 @@ https://github.com/user-attachments/assets/e2771de0-ca57-4750-b708-74f0dceaade3
 <p align="center">
   <a href="https://mindfulaiassistants.streamlit.app/#windows">
     <img 
-      src="https://img.shields.io/badge/Smart_City_Laguna_Simulator-Streamlit-brightgreen?logo=streamlit&logoColor=white&style=flat-square" 
+      src="https://img.shields.io/badge/Download our Game. Let's Play!-Streamlit-brightgreen?logo=streamlit&logoColor=white&style=flat-square" 
       alt="Download our Game. Let's Play!]"
       style="height: 30px; width: auto;"
   </a>
