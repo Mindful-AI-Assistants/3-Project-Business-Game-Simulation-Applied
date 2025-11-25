@@ -84,7 +84,7 @@ https://github.com/user-attachments/assets/e2771de0-ca57-4750-b708-74f0dceaade3
 
 
 
-#### <p align="center"><em> [Game Download]() Available on Streamlit , Play, and Follow Updates. [Let's do it]() ! </em></p>
+### <p align="center"><em> Our Game is Now Available on Streamlit ! [Download to play]() and Follow for Updates. [Let's Play]() ! </em></p>
 
 <br>
 
